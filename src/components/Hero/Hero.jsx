@@ -13,7 +13,9 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Dhriti</h1>
         <p className={styles.description}>
-          I'm a passionate developer eager to collaborate on exciting projects, explore internship opportunities, and connect with like-minded professionals. Let's build something amazing together!
+          I'm a passionate developer eager to collaborate on exciting projects,
+          explore internship opportunities, and connect with like-minded
+          professionals. Let's build something amazing together!
         </p>
         <button onClick={openModal} className={styles.contactBtn}>
           Contact Me
@@ -41,14 +43,15 @@ export const Hero = () => {
               />
               <input
                 type="email"
-                name="dhritisahu954@gmail.com"
-                placeholder="Dhriti Sahu"
+                name="Dhriti Sahu"
+                placeholder="dhritisahu954@gmail.com"
                 className={styles.inputField}
                 required
               />
               <textarea
                 name="message"
-                placeholder="let's Connect "
+                placeholder="Let’s Connect
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. "
                 className={styles.textArea}
                 rows="4"
                 required
@@ -65,7 +68,11 @@ export const Hero = () => {
                 height="20"
                 fill="currentColor"
               >
-                <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" strokeWidth="2" />
+                <path
+                  d="M18 6L6 18M6 6l12 12"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
               </svg>
             </button>
           </div>

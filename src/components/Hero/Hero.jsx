@@ -43,7 +43,7 @@ export const Hero = () => {
               />
               <input
                 type="email"
-                name="Dhriti Sahu"
+                name="dhritisahu954@gamil.com"
                 placeholder="dhritisahu954@gmail.com"
                 className={styles.inputField}
                 required
